@@ -1,0 +1,32 @@
+.a,.b,.c{
+    width: 25%;
+    height: 100px;
+    color:white;
+    font-size: 4em;
+    text-align: center;
+    line-height: 100px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+.a{
+    background-color: rgb(230, 230, 134);
+    margin-left: 10%;
+}
+.b{
+    background-color: rgb(219, 145, 118);
+}
+.c{
+    background-color: rgb(94, 134, 94);
+}/*media queries para que se vean los bloques
+ uno debajo del otro en móviles*/
+ @media (max-width:618px){
+    .a,.b,.c{
+        width: 80%;
+        height: 50px;
+        font-size: 2em;
+        line-height: 50px;
+        margin-left: 10%;
+    }
+ }
